@@ -1,4 +1,4 @@
-require File.expand_path('table.rb')
+require File.expand_path('models/table.rb')
 
 class RenaissanceTable < Table
   def describe

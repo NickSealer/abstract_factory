@@ -1,6 +1,6 @@
-require File.expand_path('bed.rb')
+require File.expand_path('models/bed.rb')
 
-class RenaissanceBed < Bed
+class ModernBed < Bed
   def describe
     puts "I am a #{self.class} type, and I'am for #{@bed_type} purpose!"
   end

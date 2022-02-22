@@ -1,6 +1,6 @@
-require File.expand_path('chair.rb')
+require File.expand_path('models/chair.rb')
 
-class ClasicChair < Chair
+class ModernChair < Chair
   def describe
     puts "I am a #{self.class} and my info is: #{self.inspect}"
   end

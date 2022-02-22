@@ -1,6 +1,6 @@
-require File.expand_path('clasic_factory.rb')
-require File.expand_path('modern_factory.rb')
-require File.expand_path('renaissance_factory.rb')
+require File.expand_path('factories/clasic_factory.rb')
+require File.expand_path('factories/modern_factory.rb')
+require File.expand_path('factories/renaissance_factory.rb')
 
 chair_1 = ClasicFactory.new.create_chair({model: 'cla-cha-01', color: 'Brown'})
 chair_2 = ModernFactory.new.create_chair({model: 'mod-cha-01', color: 'Black'})
