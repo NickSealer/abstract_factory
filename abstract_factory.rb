@@ -1,7 +1,7 @@
 class AbstractFactory
-  def create_chair; end
+  def create_chair(params); end
 
-  def create_bed; end
+  def create_bed(params); end
 
-  def create_table; end
+  def create_table(param); end
 end

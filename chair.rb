@@ -1,5 +1,10 @@
 class Chair
-  def describe
-    puts "hola soy #{self.class}"
+  attr_accessor :model, :color
+
+  def initialize(params)
+    @model = params[:model]
+    @color = params[:color]
   end
+
+  def describe; end
 end
