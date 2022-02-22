@@ -1,6 +1,7 @@
 require File.expand_path('abstract_factory.rb')
 require File.expand_path('clasic_chair.rb')
 require File.expand_path('clasic_bed.rb')
+require File.expand_path('clasic_table.rb')
 
 
 class ClasicFactory < AbstractFactory
@@ -10,5 +11,9 @@ class ClasicFactory < AbstractFactory
 
   def create_bed
     ClasicBed.new
+  end
+
+  def create_table
+    ClasicTable.new
   end
 end
